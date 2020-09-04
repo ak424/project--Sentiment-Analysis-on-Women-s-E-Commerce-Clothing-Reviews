@@ -15,7 +15,7 @@ st.markdown("This application is a Streamlit dashboard to analyze the sentiment 
 @st.cache(persist=True)
 
 def load_data():
-    df=pd.read_csv("\Sentiment-analysis-on-Women-s-E-Commerce-Clothing-Reviews")
+    df=pd.read_csv("Sentiment-analysis-on-Women-s-E-Commerce-Clothing-Reviews")
    
     return df
 
