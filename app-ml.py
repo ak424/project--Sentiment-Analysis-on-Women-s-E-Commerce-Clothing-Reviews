@@ -186,3 +186,5 @@ st.table(confusion_matrix(y_pred,y_test))
 from sklearn.metrics import classification_report
 st.write("Classification Report:")
 st.markdown(classification_report(y_pred,y_test))
+text_review= st.text_input('Input a review to be predicted')
+st.write(text_model.predict([text_review]))
